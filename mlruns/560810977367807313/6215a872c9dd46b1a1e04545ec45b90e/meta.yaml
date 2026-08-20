@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Insight_Hub/mlruns/560810977367807313/6215a872c9dd46b1a1e04545ec45b90e/artifacts
+end_time: 1787260552128
+entry_point_name: ''
+experiment_id: '560810977367807313'
+lifecycle_stage: active
+run_id: 6215a872c9dd46b1a1e04545ec45b90e
+run_name: logistic_regression
+run_uuid: 6215a872c9dd46b1a1e04545ec45b90e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1787260551553
+status: 3
+tags: []
+user_id: sakhi

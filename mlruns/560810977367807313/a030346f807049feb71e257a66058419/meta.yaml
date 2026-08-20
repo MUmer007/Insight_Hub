@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Insight_Hub/mlruns/560810977367807313/a030346f807049feb71e257a66058419/artifacts
+end_time: 1787260554470
+entry_point_name: ''
+experiment_id: '560810977367807313'
+lifecycle_stage: active
+run_id: a030346f807049feb71e257a66058419
+run_name: xgboost
+run_uuid: a030346f807049feb71e257a66058419
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1787260552167
+status: 3
+tags: []
+user_id: sakhi
