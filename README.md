@@ -1,0 +1,1 @@
+End-to-end AI/ML platform for customer intelligence churn prediction, NLP ticket classification, and a RAG-powered support chatbot, built with a production-style pipeline (FastAPI, Docker, MLflow, CI/CD).
