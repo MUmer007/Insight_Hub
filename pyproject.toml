@@ -5,6 +5,8 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "accelerate>=1.14.0",
+    "datasets>=5.0.1",
     "importlib-metadata<5",
     "joblib>=1.5.3",
     "jupyter>=1.1.1",
@@ -16,5 +18,7 @@ dependencies = [
     "seaborn>=0.13.2",
     "setuptools<81",
     "sqlalchemy>=2.0.52",
+    "torch>=2.13.0",
+    "transformers>=5.15.1",
     "xgboost>=3.4.1",
 ]

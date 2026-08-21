@@ -8,3 +8,5 @@ wheels/
 
 # Virtual environments
 .venv
+data/processed/ticket_classifier_transformer/
+data/processed/transformer_checkpoints/
