@@ -5,8 +5,17 @@ build/
 dist/
 wheels/
 *.egg-info
+.env
 
 # Virtual environments
 .venv
 data/processed/ticket_classifier_transformer/
-data/processed/transformer_checkpoints/
+data/processed/transformer_checkpoints/.env
+mlruns/
+.mlflow/
+data/processed/chroma_db/
+.env
+mlruns/
+.mlflow/
+data/processed/chroma_db/
+data/raw/* then echo data/processed/*.db then echo data/processed/*.joblib
