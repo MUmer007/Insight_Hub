@@ -8,6 +8,7 @@ dependencies = [
     "accelerate>=1.14.0",
     "chromadb>=1.5.9",
     "datasets>=5.0.1",
+    "fastapi[standard]>=0.141.1",
     "groq>=1.6.0",
     "importlib-metadata<5",
     "joblib>=1.5.3",
@@ -24,5 +25,6 @@ dependencies = [
     "streamlit>=1.62.0",
     "torch>=2.13.0",
     "transformers>=5.15.1",
+    "uvicorn[standard]>=0.52.4",
     "xgboost>=3.4.1",
 ]
