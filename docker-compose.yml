@@ -1,0 +1,32 @@
+# docker-compose.yml
+#
+# Runs the FastAPI backend and Streamlit frontend together with one command:
+#   docker compose up
+#
+# Instead of manually running two separate 'docker run' commands with
+# matching ports/env vars, docker-compose describes the whole multi-container
+# setup in one file — this is how real projects with more than one service
+# are usually run locally.
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    container_name: insighthub-api
+
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.streamlit
+    ports:
+      - "8501:8501"
+    env_file:
+      - .env
+    container_name: insighthub-frontend
+    depends_on:
+      - api
