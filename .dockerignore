@@ -1,0 +1,17 @@
+# .dockerignore
+# Files/folders excluded from the Docker build context.
+# NOTE: unlike .gitignore, we DO want data/processed/* (models, databases,
+# chroma_db) copied INTO the image, since the API needs them at runtime.
+# We only exclude things that are genuinely never needed inside the container.
+
+.venv/
+__pycache__/
+*.pyc
+.git/
+.github/
+data/raw/
+notebooks/
+tests/
+transformer_checkpoints/
+.env
+*.md
