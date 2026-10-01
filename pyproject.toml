@@ -24,6 +24,7 @@ dependencies = [
     "sqlalchemy>=2.0.52",
     "streamlit>=1.62.0",
     "torch>=2.13.0",
+    "torchvision>=0.28.0",
     "transformers>=5.15.1",
     "uvicorn[standard]>=0.52.4",
     "xgboost>=3.4.1",
